@@ -2,7 +2,7 @@ use super::read_file;
 use std::io::BufRead;
 
 fn get_binary_data() -> Vec<String> {
-    let file = read_file::read_file("./day_3_data.txt");
+    let file = read_file::read_file("./data/day_3_data.txt");
 
     let mut binary_data: Vec<String> = Vec::new();
 

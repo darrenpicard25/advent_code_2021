@@ -36,7 +36,7 @@ impl Position {
 }
 
 pub fn calculate_position() -> i32 {
-    let file = read_file::read_file("./day_2_data.txt");
+    let file = read_file::read_file("./data/day_2_data.txt");
 
     let mut position = Position::new();
 
