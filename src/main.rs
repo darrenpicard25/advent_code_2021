@@ -26,4 +26,8 @@ fn main() {
     let result_6 = days::day_6::simulate_lantern_fish();
 
     println!("Results of Day 6 Part 1: {}", result_6);
+
+    let result_7 = days::day_7::determine_cheapest_horizontal_position();
+
+    println!("Results of Day 7 Part 1: {}", result_7);
 }
