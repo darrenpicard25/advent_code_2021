@@ -30,4 +30,20 @@ fn main() {
     let result_7 = days::day_7::determine_cheapest_horizontal_position();
 
     println!("Results of Day 7 Part 1: {}", result_7);
+
+    let result_9 = days::day_9::sum_of_height_map_low_points();
+
+    println!("Results of Day 9 Part 1: {}", result_9);
+
+    let result_9 = days::day_9::sum_of_basins();
+
+    println!("Results of Day 9 Part 2: {}", result_9);
+
+    let result_10 = days::day_10::cal_total_syntax_error();
+
+    println!("Results of Day 10 Part 1: {}", result_10);
+
+    let result_10 = days::day_10::cal_incomplete_total();
+
+    println!("Results of Day 10 Part 2: {}", result_10);
 }
